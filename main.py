@@ -6,6 +6,7 @@ from dollar import kurs
 API_TOKEN = "7318028110:AAHkWO7TtHgI8iOquU1VTgMiDPajr_30fMQ"
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
+# kurs
 
 
 @dp.message(Command("start"))
